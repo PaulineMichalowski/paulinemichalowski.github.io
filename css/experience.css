@@ -1,0 +1,85 @@
+body {
+  background-image: url("https://i.imgur.com/2E9MbnW.png");
+  background-size: cover;
+  width: 99%;
+  margin: 5px;
+  margin-top: 15px;
+  border: 3px solid#98a5b4;
+  height: 950px;
+}
+img#left {
+  position: absolute;
+  left: 10px;
+  top: 15px;
+}
+img#right {
+  position: absolute;
+  right: 10px;
+  top: 15px;
+}
+img#bottomleft {
+  position: absolute;
+  left: 10px;
+  bottom: 15px;
+}
+img#bottomright {
+  position: absolute;
+  right: 10px;
+  bottom: 15px;
+}
+.name {
+  color: #3e0607;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+}
+{
+  height: 945px;
+}
+header {
+  width: 100%;
+  float: left;
+}
+h2 {
+  color: #3e0607;
+  font-size: 35px;
+  line-height: 400%;
+}
+a {
+  text-decoration: none;
+  color: #3e0607;
+}
+h4 {
+  display:inline;
+  font-size: 25px;
+  margin-left: 40px;
+}
+h5 {
+  color: #3e0607;
+  line-height: 200%;
+  font-size: 20px;
+  margin-left: 50px;
+}
+.proverb {
+  margin-left: 140px;
+  color: white;
+}
+.photocv {
+  margin-left: 15px;
+  float: left;
+  border-radius: 30px;
+  box-shadow: 6px 6px 6px #3e0607;
+}
+.photocv:hover {
+  box-shadow: 10px 10px 10px #3e0607;
+}
+.experiences {
+  margin-left: 100px;
+  color: white;
+  line-height: 300%;
+}
+.contact {
+  position: absolute;
+  left: 45%;
+  bottom: 10px;
+}

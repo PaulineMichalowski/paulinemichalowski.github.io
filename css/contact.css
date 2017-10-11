@@ -1,0 +1,89 @@
+body {
+  background-image: url("https://i.imgur.com/2flUu4A.png");
+  background-size: cover;
+  width: 99%;
+  margin: 5px;
+  margin-top: 15px;
+  border: 3px solid#98a5b4;
+  height: 950px;
+}
+img#left {
+  position: absolute;
+  left: 10px;
+  top: 15px;
+}
+img#right {
+  position: absolute;
+  right: 10px;
+  top: 15px;
+}
+img#bottomleft {
+  position: absolute;
+  left: 10px;
+  bottom: 15px;
+}
+img#bottomright {
+  position: absolute;
+  right: 10px;
+  bottom: 15px;
+}
+.name {
+  color: #3e0607;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+}
+header {
+  width: 100%;
+  float: left;
+}
+.proverb {
+  margin-left: 140px;
+  color: white;
+}
+.photocv {
+  margin-left: 15px;
+  float: left;
+  border-radius: 30px;
+  box-shadow: 6px 6px 6px #3e0607;
+}
+.photocv:hover {
+  box-shadow: 10px 10px 10px #3e0607;
+}
+h2 {
+  color: #3e0607;
+  font-size: 35px;
+  line-height: 250%;
+}
+.contactSpeech {
+  color: white;
+  line-height: 150%;
+  margin-left: 100px;
+  text-align: justify;
+  margin-right: 20px;
+}
+.Bye {
+  text-align: center;
+  color: white;
+  line-height: 150%;
+}
+.GithubIcon {
+  position: absolute;
+  right: 800px;
+  bottom: 400px;
+}
+.LinkedinIcon {
+  position: absolute;
+  right: 900px;
+  bottom: 400px;
+}
+.MailIcon {
+  position: absolute;
+  right: 1000px;
+  bottom: 400px;
+}
+.PhoneIcon {
+  position: absolute;
+  right: 1100px;
+  bottom: 400px;
+}
