@@ -1,11 +1,6 @@
 body {
   background-image: url("https://i.imgur.com/UXNlIK1.png");
   background-size: cover;
-  width: 99%;
-  margin: 5px;
-  margin-top: 15px;
-  border: 3px solid#98a5b4;
-  height: 950px;
 }
 img#left {
   position: absolute;
@@ -62,7 +57,6 @@ h5 {
   color: white;
 }
 .photocv {
-  margin-left: 15px;
   float: left;
   border-radius: 30px;
   box-shadow: 6px 6px 6px #3e0607;
@@ -70,23 +64,12 @@ h5 {
 .photocv:hover {
   box-shadow: 10px 10px 10px #3e0607;
 }
-.colomn1 {
+.allcolomns {
   color: white;
-  margin-left: 250px;
-  float: left;
   line-height: 150%;
-}
-.colomn2 {
-  color: white;
-  float: right;
-  margin-right: 800px;
-  line-height: 150%;
-}
-.colomn3 {
-  color: white;
-  float: right;
-  line-height: 150%;
-  margin-right: 190px;
+  display: flex;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 ::-moz-progress-bar {
   background-color: #3e0613;
@@ -99,3 +82,9 @@ progress {
   position: absolute;
   left: 45%;
   bottom: 10px;
+}
+@media all and (max-width: 1024px) {
+  .colom1 {
+
+  }
+}
