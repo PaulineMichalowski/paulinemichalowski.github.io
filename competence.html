@@ -1,65 +1,82 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link rel="stylesheet" href="/home/pauline/CV/paulinemichalowski.github.io/Bootstrap/bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="css/competence.css">
+    <meta name="viewport" content="width = device-width">
     <meta charset="utf-8">
     <title>Mes compétences</title>
   </head>
     <body>
-  <header>
-  <div class="">
-    <img id="left" src="https://vignette.wikia.nocookie.net/witcher/images/5/59/Tw3_ability_aard_intensity.png/revision/latest?cb=20170317171727" alt="signe aard witcher3">
-    <img id="right" src="https://vignette.wikia.nocookie.net/witcher/images/6/6a/Tw3_ability_active_shield.png/revision/latest?cb=20170317171729" alt="signe quen">
-  </div>
-  <h1 class="name">Pauline MICHALOWSKI</h1>
-    <p><img src="image/CVPauline" class="photocv" alt="Photo de Pauline Michalowski" title="Pauline Michalowski"></p>
-    <p class="proverb">"Tu ne peux pas viser le succès si tu refuses de risquer d’échouer"</p>
-    <h4><a class="home" href="index.html">Page de présentation</a></h4>
-    <h4><a class="skills" href="experience.html">Mon expérience</a></h4>
-    <h4><a class="training" href="formation.html">Ma formation</a></h4>
-  </header>
-
-    <h2>Mes compétences</h2>
-    <div class="allcolomns">
-
-
-    <div class="colomn1">
-      <label>Microsoft Office</label>
-    <progress value="80" max="100"></progress><br>
-    <label>Microsoft Excel</label>
-    <progress value="80" max="100"></progress><br>
-    <label>Microsoft Word</label>
-    <progress value="80" max="100"></progress><br>
-    <label>Microsoft Powerpoint</label>
-    <progress value="80" max="100"></progress><br>
-    </div>
-  <div class="colomn2">
-    <label>Linux</label>
-    <progress value="70" max="100"></progress><br>
-    <label>Windows</label>
-    <progress value="80" max="100"></progress><br>
-    <label>HTML/CSS</label>
-    <progress value="65" max="100"></progress><br>
-    <label>PHP</label>
-    <progress value="55" max="100"></progress><br>
-  </div>
-  <div class="colomn3">
-    <label>Vhost/Apache</label>
-    <progress value="70" max="100"></progress><br>
-    <label>Atom</label>
-    <progress value="70" max="100"></progress><br>
-    <label>Git/Github</label>
-    <progress value="65" max="100"></progress><br>
-    <label>Nano</label>
-    <progress value="65" max="100"></progress><br>
-  </div>
-    </div>
-  <footer>
-<div>
-<img id="bottomleft" src="https://vignette.wikia.nocookie.net/witcher/images/e/e7/Tw3_ability_axii_intensity.png/revision/latest?cb=20170317171729" alt="signe axii">
-<img id="bottomright" src="https://vignette.wikia.nocookie.net/witcher/images/c/ca/Tw3_ability_igni_intensity.png/revision/latest?cb=20170317171844" alt="signe igni">
-</div>
-<h5 class="contact"><a href="contact.html">Contactez-moi</a></h5>
-  </footer>
-  </body>
+      <header>
+          <div class="row">
+            <div class="col-xs-2 col-lg-1">
+              <img id="left" src="https://vignette.wikia.nocookie.net/witcher/images/5/59/Tw3_ability_aard_intensity.png/revision/latest?cb=20170317171727" alt="signe aard witcher3">
+            </div>
+            <div class="col-xs-8 col-lg-offset-4 col-lg-6">
+              <h1>Pauline MICHALOWSKI</h1>
+            </div>
+            <div class="col-xs-2 col-lg-1">
+              <img class="pull-right" id="right" src="https://vignette.wikia.nocookie.net/witcher/images/6/6a/Tw3_ability_active_shield.png/revision/latest?cb=20170317171729" alt="signe quen">
+            </div>
+          </div>
+          <div class="row">
+              <p class="col-xs-s col-lg-1"><img src="image/CVPauline" class="photocv" alt="Photo de Pauline Michalowski" title="Pauline Michalowski"></p>
+            <div class="col-xs-7 col-lg-11">
+              <p class="proverb">"Tu ne peux pas viser le succès si tu refuses de risquer d’échouer"</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-offset-1 col-xs-11 col-lg-offset-1 col-lg-3">
+              <h3><a class="home" href="index.html">Page de présentation</a></h3>
+            </div>
+            <div class="col-xs-offset-1 col-xs-11 col-lg-3">
+              <h3><a class="skills" href="experience.html">Expérience</a></h3>
+            </div>
+            <div class="col-xs-offset-1 col-xs-11 col-lg-3">
+              <h3><a class="training" href="formation.html">Formation</a></h3>
+            </div>
+          </div>
+        </header>
+      <h2>Mes compétences</h2>
+      <div class="row">
+        <div class="col-xs-12 col-lg-3">
+          <p>Linux</p>
+          <progress value="70" max="100"></progress>
+          <p>Windows</p>
+          <progress value="80" max="100"></progress>
+          <p>HTML/CSS</p>
+          <progress value="65" max="100"></progress>
+          <p>PHP</p>
+          <progress value="55" max="100"></progress>
+        </div>
+        <div class="col-xs-12 col-lg-3">
+          <p>Vhost/Apache</p>
+          <progress value="70" max="100"></progress>
+          <p>Atom</p>
+          <progress value="70" max="100"></progress>
+          <p>Git/Github</p>
+          <progress value="65" max="100"></progress>
+          <p>Nano</p>
+          <progress value="65" max="100"></progress>
+        </div>
+        <div class="col-xs-12 col-lg-3">
+        <p>Microsoft Office</p>
+        <progress value="80" max="100"></progress>
+        <p>Microsoft Excel</p>
+        <progress value="80" max="100"></progress>
+        <p>Microsoft Word</p>
+        <progress value="80" max="100"></progress>
+        <p>Microsoft Powerpoint</p>
+        <progress value="80" max="100"></progress>
+        </div>
+      </div>
+    <footer>
+      <div class="row">
+        <div class="col-xs-offset-1 col-xs-11 col-lg-offset-5 col-lg-5">
+      <h4 class="contact"><a href="contact.html">Contactez-moi</a></h4>
+      </div>
+      </div>
+    </footer>
+    </body>
 </html>

@@ -1,90 +1,53 @@
 body {
   background-image: url("https://i.imgur.com/UXNlIK1.png");
   background-size: cover;
+  margin: 1%;
 }
-img#left {
-  position: absolute;
-  left: 10px;
-  top: 15px;
-}
-img#right {
-  position: absolute;
-  right: 10px;
-  top: 15px;
-}
-img#bottomleft {
-  position: absolute;
-  left: 10px;
-  bottom: 15px;
-}
-img#bottomright {
-  position: absolute;
-  right: 10px;
-  bottom: 15px;
-}
-.name {
-  color: #3e0607;
-  text-align: center;
-  font-size: 40px;
-  font-weight: bold;
-}
-header {
-  width: 100%;
-  float: left;
-}
-h2 {
+h1 {
   color: #3e0607;
   font-size: 35px;
+  font-weight: bold;
+}
+
+h2 {
+  color: #3e0607;
+  font-size: 28px;
   line-height: 400%;
 }
 a {
   text-decoration: none;
   color: #3e0607;
 }
-h4 {
-  display:inline;
-  font-size: 25px;
-  margin-left: 40px;
+a:hover {
+  text-decoration: none;
+  color : white;
 }
-h5 {
-  color: #3e0607;
-  line-height: 200%;
-  font-size: 20px;
-  margin-left: 50px;
+h3 {
+  font-size: 30px;
 }
 .proverb {
-  margin-left: 140px;
+  font-size: 20px;
   color: white;
 }
 .photocv {
-  float: left;
   border-radius: 30px;
   box-shadow: 6px 6px 6px #3e0607;
 }
 .photocv:hover {
   box-shadow: 10px 10px 10px #3e0607;
 }
-.allcolomns {
+p {
   color: white;
   line-height: 150%;
-  display: flex;
-  margin-left: 20%;
-  margin-right: 20%;
+  font-size: 18px;
 }
 ::-moz-progress-bar {
   background-color: #3e0613;
 }
 progress {
   background-color: #98a5b4;
-  display:flow-root;
 }
 .contact {
-  position: absolute;
-  left: 45%;
-  bottom: 10px;
-}
-@media all and (max-width: 1024px) {
-  .colom1 {
-
-  }
+  margin-top: 35%;
+  font-size: 30px;
 }
